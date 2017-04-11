@@ -1,0 +1,37 @@
+# Programmatic work done for datasets as labeled
+
+TJMemorandumBooks
+* See /docs.
+* Processes for: Convert TypeScript to TEI XML, Reports, data enrichment, creation of capsule bios, CMS (PubMan) prep
+
+VIFH-9: Memorandum Book Capsule Bios Refinements
+* generate capsule bios in DARMA xml from TJ MB notes (with persNames)
+* Updates to add fields to generated capsule bios.
+* Use supplied list of names already in DARMA to check for potential duplicates within candidate capsule bios.
+
+VIFH-10: Pinckney Capsule Bios work
+* Generate capsule bios in DARMA xml from Pinckney Glossary
+* Use supplied list of names already in DARMA to check for potential duplicates within candidate capsule bios.
+
+VIFH-11: Geography of Slavery data conversion
+* See /docs
+
+VIFH-15: Jefferson Dinner List Conversion
+* See /docs
+
+VIFH-35 Monroe Papers Names
+* See /docs
+* create a cumulative names list derived from volumes 1-5 print volume indexes (now in two word files, file 1=vols. 1-4 and file 2=vol. 5)
+* Attach a citation to each name based on the series name (papers of James Monroe--see separate list for unique volume names), volume number, and page range
+* Flag the names with capsule bios indicated with an asterisk. Assign a "yes" value to capsule bio Y/N, and a "no" value for all others Drop out non-people from the working copy
+* Create DARMA XML
+* Run a report against the PFE population
+
+VIFH-48 Process data for Creating a Federal Government Project
+* See /docs
+* generate capsule candidates
+* run by PFE and create reports
+
+VIFH-50 Franklin Papers and PFE
+* See /docs
+
