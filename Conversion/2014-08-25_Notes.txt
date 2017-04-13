@@ -1,0 +1,6 @@
+- done: xlists, daylists, pp, sublist, ce, tab specs; abbreviations keys (editorial too)
+- all macros in script file and data have conversion mappings
+- all special characters mapped including Greek
+- conversion much more robust and accurate
+- transactionography research done and documented
+- avg time 80pp/h for balance of xx = estimated 

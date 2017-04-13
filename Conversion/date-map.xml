@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- contains all distinct strings for month values in the MB entries month column -->
+<date-map>
+    <month number="01">
+        <name>Jan.</name>
+        <name>Jan</name>
+    </month>
+    <month number="02">
+        <name>Feb.</name>
+        <name>Feb</name>
+    </month>
+    <month number="03">
+        <name>Mar.</name>
+        <name>Mar</name>
+        <name>March</name>
+        <name>Mch.</name>
+        <name>Mch</name>
+    </month>
+    <month number="04">
+        <name>April</name>
+        <name>Apr.</name>
+        <name>Apr</name>
+    </month>
+    <month number="05">
+        <name>May</name>
+        <name>May.</name>
+    </month>
+    <month number="06">
+        <name>June</name>
+        <name>June.</name>
+    </month>
+    <month number="07">
+        <name>July</name>
+        <name>Jul.</name>
+        <name>Jul</name>
+    </month>
+    <month number="08">
+        <name>Aug.</name>
+        <name>Aug</name>
+        <name>August</name>
+    </month>
+    <month number="09">
+        <name>Sep.</name>
+        <name>Sept.</name>
+        <name>Sep</name>
+        <name>Sept</name>
+    </month>
+    <month number="10">
+        <name>Oct.</name>
+        <name>Oct</name>
+        <name>October</name>
+        <name>Octob.</name>
+        <name>Octob</name>
+    </month>
+    <month number="11">
+        <name>Nov</name>
+        <name>Nov.</name>
+    </month>
+    <month number="12">
+        <name>Dec.</name>
+        <name>Dec</name>
+    </month>
+</date-map>

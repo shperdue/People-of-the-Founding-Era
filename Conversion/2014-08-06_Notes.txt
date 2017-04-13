@@ -1,0 +1,12 @@
+- Abbreviations captured. Those which have multiple expansions marked in the file.
+- in the notes, 1867 # 60, there is some greek that is not converted. This section (documented prev.) does not match the hardcopy.
+- character conversion errors sent by LB fixed in text conversion
+- old conversion code for text discarded as unusable
+- many character conversion errors repaired: em, en, thin spaces;
+- em spaces used to indicate blanks, should be markup (fix later)
+- need to investigate where line breaks may indicate markup needed
+- editorial conventions marked. Supplied will need different display style sheet logic than the default ptjrs since it has to retain the question marks in it owing to things like [word? word?]
+- special character markup well underway
+- started markup of months, days, years, sdays, xdays, dates. Using @role so we can mark iso dates on granular elements later.
+- tbd: xlists, daylists, and all macros listed in script file
+- tbd: full sweep of spec. chars

@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='http://ptjrs2.dataformat.com/local/ptjrs_tei_normal.xsl'?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xmlns:pm="http://demo.dataformat.com/local/pm"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/1999/xhtml"
+    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://ptjrs2.dataformat.com/local/tei_ptjrs.xsd">
+    <TEI pm:sortkey="0" pm:entry="0" pm:docDesc="0" pm:title="TJMB.I"
+        pm:link-target-type="relatedDocument" pm:status="Active">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Jefferson's Memorandum Books: Accounts, with Legal Records and
+                        Miscellany, 1767-1826 / Thomas Jefferson</title>
+                    <author>Jefferson, Thomas</author>
+                    <editor>James A. Bear, Jr., ed.</editor>
+                    <editor>Lucia C. Stanton, ed.</editor>
+                    <respStmt>
+                        <resp>Creation of machine-readable version: </resp>
+                        <orgName>Princeton University Press </orgName>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Conversion to TEI.2-conformant markup: </resp>
+                        <orgName>University of Virginia Library Electronic Text Center. </orgName>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Conversion to TEI P5 conformant markup:</resp>
+                        <orgName>Infoset Digital Publishing LLC</orgName>
+                    </respStmt>
+                </titleStmt>
+                <extent/>
+                <publicationStmt>
+                    <publisher>Virginia Institute of the Humanities</publisher>
+                    <pubPlace>Charlottesville, Virginia </pubPlace>
+                </publicationStmt>
+                <seriesStmt>
+                    <p> </p>
+                </seriesStmt>
+                <sourceDesc>
+                    <biblFull>
+                        <titleStmt>
+                            <title>Jefferson's Memorandum Books: Accounts, with Legal Records and
+                                Miscellany, 1767-1826 </title>
+                            <title level="monograph">Volume I</title>
+                            <author>Thomas Jefferson</author>
+                            <editor>James A. Bear, Jr., ed. </editor>
+                            <editor>Lucia C. Stanton, ed.</editor>
+                        </titleStmt>
+                        <editionStmt>
+                            <p> </p>
+                        </editionStmt>
+                        <extent>807 pp. </extent>
+                        <publicationStmt>
+                            <publisher>Princeton University Press </publisher>
+                            <pubPlace>Princeton, New Jersey </pubPlace>
+                            <date>1997 </date>
+                            <idno type="callNo">Print copy consulted:University of Virginia,
+                                Alderman Library AL-REF E 302 .J442 1997 v.1 </idno>
+                        </publicationStmt>
+                        <seriesStmt>
+                            <p> </p>
+                        </seriesStmt>
+                        <notesStmt>
+                            <note type="editorial-footnote"> </note>
+                        </notesStmt>
+                    </biblFull>
+                </sourceDesc>
+            </fileDesc>
+            <encodingDesc>
+                <projectDesc>
+                    <p>Prepared for the Virginia Institute of the Humanities. </p>
+                </projectDesc>
+                <editorialDecl>
+                    <p/>
+                </editorialDecl>
+                <refsDecl>
+                    <p> </p>
+                </refsDecl>
+                <classDecl>
+                    <taxonomy xml:id="LCSH">
+                        <bibl>
+                            <title>Library of Congress Subject Headings </title>
+                        </bibl>
+                    </taxonomy>
+                </classDecl>
+            </encodingDesc>
+            <profileDesc>
+                <creation>
+                    <date> </date>
+                </creation>
+                <langUsage>
+                    <language ident="EN">English</language>
+                </langUsage>
+                <textClass>
+                    <keywords scheme="none">
+                        <term> </term>
+                        <term>prose </term>
+                        <term>masculine </term>
+                        <term>Thomas Jefferson </term>
+                    </keywords>
+                    <keywords scheme="LCSH">
+                        <term>LCSH</term>
+                    </keywords>
+                </textClass>
+            </profileDesc>
+            <revisionDesc>
+                <change when="2014-07">Conversion to TEI P5</change>
+            </revisionDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div1>
+                    <table xhtml:border="0">
+                        <tr valign="top" role="month">
+                            <td>Aug.</td>
+                            <td role="day">
+                                <date>
+                                    <supplied>25.</supplied>
+                                    <ref type="textual-note" target="n2"/>
+                                </date>
+                            </td>
+                            <td/>
+                            <td xhtml:style="margin-left:1em;text-indent:-1em;"><gap extent="long"
+                                /><ref type="textual-note" target="n3"/> survey <gap extent="long"
+                                /><ref type="textual-note" target="n4"/> forfeited sold it to Edward
+                                <supplied>Pharr for 37</supplied> lib. 10/ cash and gave him a deed
+                                &amp;c. Payne after this expr<supplied cert="low">essed
+                                sad?</supplied>ness at losing his mill but said <supplied cert="low"
+                                >he?</supplied> had rather it should be in his h<supplied cert="low"
+                                >ands? than?</supplied> any other's. On which Pharr told <supplied
+                                cert="low">him? if?</supplied> he would make up his money in a
+                                <supplied>twelve</supplied>month he would return the land. He
+                                <supplied cert="low">agreed?</supplied> with Payne to keep the mill:
+                                Payne left <supplied cert="low">the mill?</supplied> as there was no
+                                house over it. The hogs d<supplied cert="low">evour?</supplied>ed a
+                                bag and corn. Pharr told him if he l<supplied cert="low"
+                                >eft?</supplied> it again he should never have it. He <supplied
+                                cert="low">left?</supplied> it again within <supplied>a</supplied>
+                                month, and his custom<gap extent="oneortwoword"/><ref
+                                type="textual-note" target="n5"/> for them. Upon w<supplied
+                                cert="low">hich?</supplied> he sold her to <gap extent="1digit"/>n
+                                Dixon for 50 lib. <gap extent="oneortwoword"/> credit, and <gap
+                                extent="oneortwoword"/> pay. On this Josias
+                                P<supplied>ayne</supplied> brings an action on the case for damages
+                                for not complying with his agreement. (No<supplied>te</supplied>
+                                Payne within the twelvemonth had tende<supplied>red</supplied> him
+                                38 lib., but that was not Pharr's mo<gap extent="1digit"/> because
+                                besides the 37 lib. 10/ there were 2/6 for writing the deed, 8/9 for
+                                recording <supplied cert="low">it?</supplied> and 39/6 due on an
+                                another account which they had settled.) Payne recovers 40 lib.
+                                damages agt. which Pharr desires to be relieved. (Note before Dixon
+                                purchased Payne desired him to purchase it and th<supplied
+                                cert="low">at?</supplied> he would go halves with him.) Recd. 20/. I
+                                am to employ auxiliary. Inter<gap extent="1digit"/> <supplied
+                                cert="low">if?</supplied> not the money tendered by Payne borrowed
+                                mere<supplied cert="low">ly?</supplied> <gap extent="oneortwoword"/>
+                                and ground his action, and if Pharr had offered <gap extent="long"
+                                /><ref type="textual-note" target="n6"/> </td>
+                        </tr>
+                        <tr valign="top" role="sday">
+                            <td colspan="3"/>
+                            <td xhtml:style="margin-left:1em;text-indent:-1em;">
+                                <gap extent="long"/>
+                                <ref type="textual-note" target="n7"/>
+                            </td>
+                        </tr>
+                        <tr valign="top" role="sday">
+                            <td colspan="3"/>
+                            <td xhtml:style="margin-left:1em;text-indent:-1em;"><supplied>The
+                                King</supplied><ref type="textual-note" target="n8"/> v. Tharpe and
+                                Calloway. An indictment for assaulting <gap extent="oneortwoword"/>
+                                Susanna Williams. To assist Pendleton.<ref type="textual-note"
+                                target="n9"/> Depend principally on her character. She has declared
+                                she would not take 200 lib. for her chance. If we fail, we are to
+                                apply to Gov. for a remission. Endeavor to sever Calloway who has
+                                been joined merely to deprive pl. of his evidence, and he will prove
+                                provocation. </td>
+                        </tr>
+                        <tr valign="top" role="day">
+                            <td/>
+                            <td>
+                                <date>27.</date>
+                            </td>
+                            <td/>
+                            <td xhtml:style="margin-left:1em;text-indent:-1em;">Rees v. Talford et
+                                al. and Rees v. Hayes et al. The Augusta men alledge that the Three
+                                ridge mountain, the Pr<supplied>iest</supplied> mountain, the Bald
+                                friar Mountain <gap extent="oneortwoword"/><ref type="textual-note"
+                                target="n10"/> <supplied>Pea</supplied>ks of Otter form that ridge
+                                which divides the counties<ref type="textual-note" target="n11"/>
+                                (perhaps it may part thus DRAWING) but others say these are only
+                                spurs making from the blue ridge
+                                <?format A drawing is to be inserted on the line above. and adjoining thereto, and that the waters of James river issuing from the E. side of the blue ridge run between these mountains. ?>
+                            </td>
+                        </tr>
+                        <tr valign="top" role="day">
+                            <td/>
+                            <td>
+                                <date>27.</date>
+                            </td>
+                            <td/>
+                            <td xhtml:style="margin-left:1em;text-indent:-1em;">Taliaferro
+                                v.  Coffee. William Pannel possessed of an entry<ref
+                                type="textual-note" target="n12"/> of 200 acres on N. branch of Tye
+                                river, Amherst, transferred it by a note in writing for 30/ to James
+                                Glenn. Glenn afterwards sold it back to Pannel for the same which
+                                Pannel paid in presence of Thomas Pannel, but there was never any
+                                direction to the <del status="retain">sheriff to</del> surveior
+                                about it. Pannel having removed to Carolina, instructed Benjamin
+                                Dove who was coming into <gap extent="oneortwoword"/> to sell this
+                                entry for him, which he according<supplied>ly</supplied> does to
+                                George Campbell, in 1765, who sells to Zachariah Taliaferro for  .
+                                Coffee, looking into the surveior's books found that in the
+                                repurchase of Pannel from Glenn there had been no transfer in
+                                writing, and purchased in 1766 of Glenn, tho' he had known of
+                                Taliaferro's title above a year before. Note Taliaferro will get a
+                                transfer from Pannel in writing. </td>
+                        </tr>
+                        <tr valign="top" role="day">
+                            <td/>
+                            <td>
+                                <date>28.</date>
+                            </td>
+                            <td/>
+                            <td xhtml:style="margin-left:1em;text-indent:-1em;">Fry, John ads.<ref
+                                type="textual-note" target="n13"/> Hanbury mercht. </td>
+                        </tr>
+                        <tr valign="top" role="month">
+                            <td>Sep.</td>
+                            <td role="day">
+                                <date>12.</date>
+                            </td>
+                            <td/>
+                            <td xhtml:style="margin-left:1em;text-indent:-1em;">Hickman v. Harper
+                                &amp; Lewis. Issue sci. fa. agt. both defs. immediately. </td>
+                        </tr>
+                        <tr valign="top" role="day">
+                            <td/>
+                            <td>
+                                <date>13.</date>
+                            </td>
+                            <td/>
+                            <td xhtml:style="margin-left:1em;text-indent:-1em;">Bring an action for
+                                Micajah Chiles agt. Matthew Jordan high sher. of Albemarle for
+                                taking his horse for his Tobacco dues.<ref type="textual-note"
+                                target="n14"/> Dam. 100 lib. (John Fry
+                                (Coron<supplied>er).</supplied> </td>
+                        </tr>
+                        <tr valign="top" role="day">
+                            <td/>
+                            <td>
+                                <date>20.</date>
+                            </td>
+                            <td/>
+                            <td xhtml:style="margin-left:1em;text-indent:-1em;">Received of Abner
+                                Witt 8/6 the caveat fee in Witt v. Barnet. Memdm. enter the Caveat
+                                Octob. 18. </td>
+                        </tr>
+                        <tr valign="top" role="day">
+                            <td/>
+                            <td>
+                                <date>26.</date>
+                            </td>
+                            <td/>
+                            <td xhtml:style="margin-left:1em;text-indent:-1em;">Recd. of John Ford
+                                6/3 in Ford v. Millar.<ref type="textual-note" target="n15"/>
+                                Caveat. </td>
+                        </tr>
+                        <tr valign="top" role="month">
+                            <td>Octob.</td>
+                            <td role="day">
+                                <date>10.</date>
+                            </td>
+                            <td/>
+                            <td xhtml:style="margin-left:1em;text-indent:-1em;">Price (Leonard) ads.
+                                Nicholson. Recd. special bail peice<ref type="textual-note"
+                                target="n16"/> and orders to defend. Use all delay. </td>
+                        </tr>
+                        <tr valign="top" role="day">
+                            <td/>
+                            <td>
+                                <date>17.</date>
+                            </td>
+                            <td/>
+                            <td xhtml:style="margin-left:1em;text-indent:-1em;">Robert Aldridge et
+                                ux. ads. Nicholas Grubb, infant by Bruin his next friend. Slander
+                                and    . </td>
+                        </tr>
+                        <tr valign="top" role="sday">
+                            <td colspan="3"/>
+                            <td xhtml:style="margin-left:1em;text-indent:-1em;">The same ads.
+                                Benjamin Grubb infant by Bruin his next friend. Slander. Recd. a
+                                letter from James Wood with directions to appear for defs. </td>
+                        </tr>
+                        <tr valign="top" role="day">
+                            <td/>
+                            <td>
+                                <date>19.</date>
+                            </td>
+                            <td/>
+                            <td xhtml:style="margin-left:1em;text-indent:-1em;">Tharpe &amp;
+                                Calloway ads. The King. The defs. fined 10/ each. To pay costs.
+                                Hairstone an evid<supplied>ence</supplied> allowed only two days
+                                attendance. </td>
+                        </tr>
+                        <tr valign="top" role="month">
+                            <td><supplied>Octo</supplied>b.</td>
+                            <td role="day">
+                                <date>19.</date>
+                            </td>
+                            <td/>
+                            <td xhtml:style="margin-left:1em;text-indent:-1em;">Jefferson (George)
+                                v. Witten and <supplied>John</supplied> Jefferson<ref
+                                type="textual-note" target="n17"/> v. <supplied> </supplied>. Suits
+                                to be removed from Lunenburgh to Gen. court.<ref type="textual-note"
+                                target="n18"/> G. Jefferson was undersheriff to M. Marrable and did
+                                not make up his collection of dues, and also served an exn. on
+                                Mumford but let him go without the money. Witten the succeeding
+                                sheriff (by an order of court made at the instion. of M. Marrable)
+                                distrained between 20 and 30 negroes, 10 or 12 horses and other
+                                things in Sep. in midst of pulling hemp and housing tobo. Jefferson
+                                offered him Henry Delony security, but he refused to take (qu.
+                                whether he object to the sufficiency of security, or that <del
+                                status="retain">security is not</del> the goods of an undersheriff
+                                are not repleviable.) John Jefferson was security for George, and is
+                                def. to one action. There are two other actions, but I am not to
+                                suffer them to be removed because the subject is under 10£. Advised
+                                the parties, one of them to suffer judgmt. below; to appeal from
+                                that judgment; the appellee to confess error in G. C. and then
+                                consent that the cause may be retained in it's place and proceed to
+                                trial de novo by witnesses. </td>
+                        </tr>
+                        <tr valign="top" role="day">
+                            <td/>
+                            <td>
+                                <date>20.</date>
+                            </td>
+                            <td/>
+                            <td xhtml:style="margin-left:1em;text-indent:-1em;">Dinwiddie (the
+                                Honble. Robert) agt. Lee (Richd.). To appear with the Atty. Gen. for
+                                pl.<ref type="textual-note" target="n19"/> </td>
+                        </tr>
+                        <tr valign="top" role="month">
+                            <td>Octob.</td>
+                            <td role="day">
+                                <date>20.</date>
+                            </td>
+                            <td/>
+                            <td xhtml:style="margin-left:1em;text-indent:-1em;">Entered in the
+                                council office Caveats <supplied cert="low">in?</supplied> Ford v.
+                                Millar, Frame v. Warwick, Witt <supplied>v.</supplied> Barnett,
+                                Taliaferro v. Coffee. Also a Caveat in the name of Nichs. Meriwether
+                                v. myself for my three tracts of land in Bedford.<ref
+                                type="textual-note" target="n20"/> Took out summonses in the above
+                                Caveats. </td>
+                        </tr>
+                        <tr valign="top" role="day">
+                            <td/>
+                            <td>
+                                <date>21.</date>
+                            </td>
+                            <td/>
+                            <td xhtml:style="margin-left:1em;text-indent:-1em;">Pd. Walthoe<ref
+                                type="textual-note" target="n21"/> 28/9 for the above five Caveats.
+                            </td>
+                        </tr>
+                        <tr valign="top" role="day">
+                            <td/>
+                            <td>
+                                <date>23.</date>
+                            </td>
+                            <td/>
+                            <td xhtml:style="margin-left:1em;text-indent:-1em;">Thompson v.
+                                Robertson. Petn. for 957 acres in Albemarle. </td>
+                        </tr>
+                        <tr valign="top" role="month">
+                            <td>Nov.</td>
+                            <td role="day">
+                                <date>4.</date>
+                            </td>
+                            <td/>
+                            <td xhtml:style="margin-left:1em;text-indent:-1em;">Benjamin Harrison v.
+                                Edwd. Pye Chamberlayne. To appear for pl. at Mr. McCaul's<ref
+                                type="textual-note" target="n22"/> request. He took out writ and pd.
+                                tax. See acct. Dam. 150£ in Case. </td>
+                        </tr>
+                        <tr valign="top" role="month">
+                            <td>Nov.</td>
+                            <td role="day">
+                                <date>5.</date>
+                            </td>
+                            <td/>
+                            <td xhtml:style="margin-left:1em;text-indent:-1em;">Thomas Lilly v. John
+                                Riddle. Capt. Lilly was purchasing wheat at 4/ per bushel, up James
+                                river. Riddle was on same business, and in order to prevent Lilly's
+                                purchase (and to get wheat himself at 3/6) sd. to several (Colo.
+                                Carter Braxton, Phill Johnson and Ryland Randolph) =that it was no
+                                matter what Lilly gave for that all his bills would come back
+                                protested, but that his Riddle<supplied>'s</supplied> money was
+                                certain.' The consequence <supplied>of</supplied> this was that
+                                after Lilly had purchased and came to draw bills he could not
+                                dispose of them without an endorsemt. Lilly issued the writ. Issue a
+                                writ. Damage 2000 lib. </td>
+                        </tr>
+                        <tr valign="top" role="month">
+                            <td>Nov.</td>
+                            <td role="day">
+                                <date>14.</date>
+                            </td>
+                            <td/>
+                            <td xhtml:style="margin-left:1em;text-indent:-1em;">Inclosed the papers
+                                in Kypen &amp; Co. v. Smith to Mr. Wallace. </td>
+                        </tr>
+                        <tr valign="top" role="day">
+                            <td/>
+                            <td>
+                                <date>17.</date>
+                            </td>
+                            <td/>
+                            <td xhtml:style="margin-left:1em;text-indent:-1em;">David Frame
+                                (Augusta) directs me to issue writ in Scandal agt. James Burnside
+                                (Augusta). Burnside said =he <del status="retain">caught Frame (who
+                                is a married man) in bed with Elizabeth Burkin</del> put his on<ref
+                                type="textual-note" target="n23"/> Frame's ——— as he lay in bed with
+                                the girl and felt it wet and then put his hand on her ——— and felt
+                                it wet also.' </td>
+                        </tr>
+                        <tr valign="top" role="sday">
+                            <td colspan="3"/>
+                            <td xhtml:style="margin-left:1em;text-indent:-1em;">Stockdon v.
+                                Brackenridge. Recd. 5/. </td>
+                        </tr>
+                        <tr valign="top" role="day">
+                            <td/>
+                            <td>
+                                <date>18.</date>
+                            </td>
+                            <td/>
+                            <td xhtml:style="margin-left:1em;text-indent:-1em;">Matthew Read
+                                (Augusta) emplois me to defend him at the suit of Abraham Feilder
+                                (Albemarle). Feilder the father of the pl. owed Read 3£ and the pl.
+                                to Dick Woods 10£. Read goes to Feilder the father for the money, he
+                                sais he has none but his son has a hhd. of tobo. which he may have.
+                                Read sais no, but he will send it to Augusta. He will assist him to
+                                sell it. The son carries it. Dick Woods takes out a writ at the
+                                court against the son, who delvd. the tobo. his horse and saddle.
+                                Woods sets it up to publick sale. Read tells the crier to bid for
+                                him. The crier accordingly buys it for £6–11. The son brings suit
+                                for them agt. Read. </td>
+                        </tr>
+                        <tr valign="top" role="day">
+                            <td/>
+                            <td>
+                                <date>18.</date>
+                            </td>
+                            <td/>
+                            <td xhtml:style="margin-left:1em;text-indent:-1em;">Madison v. Johnson.
+                                Recd. 52/6. </td>
+                        </tr>
+                        <tr valign="top" role="sday">
+                            <td colspan="3"/>
+                            <td xhtml:style="margin-left:1em;text-indent:-1em;">John Archer
+                                (Augusta) directs me to defend him if an action of Slander should be
+                                brought agt. him by Elizabeth Crawford, an infant daur. of Patrick
+                                Crawford (Augusta). Archer was at Colo. Dandridge's where the girl
+                                lived, and in presence of the company asked Mrs. Dandridge whether
+                                she was child.<ref type="textual-note" target="n24"/> Mrs. D. =no,
+                                why do you ask?' J. A. because it is so reported in Augusta. He
+                                declares he expressed himself in such a manner as to shew the
+                                company he did not believe it, and never has mentioned it at any
+                                other time before or since. He can prove that Ralph Loftus did
+                                report this at several times in Augusta. I am to employ an auxiliary
+                                a little before the suit comes to trial. </td>
+                        </tr>
+                        <tr valign="top" role="sday">
+                            <td colspan="3"/>
+                            <td xhtml:style="margin-left:1em;text-indent:-1em;">Clarke v. Coffee.
+                                Pl. lives Culpepper. </td>
+                        </tr>
+                        <tr valign="top" role="sday">
+                            <td colspan="3"/>
+                            <td xhtml:style="margin-left:1em;text-indent:-1em;">Andrew Johnston, and
+                                Thom. Bowyer direct me on behalf of themselves and John Madison
+                                junr. to enquire if a patent has issued to Robert Patterson (  ) for
+                                <del status="retain">500 acres on Linwell's creek called the <gap
+                                extent="oneortwoword"/> tract (  ). If no patent has issued <gap
+                                extent="oneortwoword"/> a caveat in the name of Andrew Johnston but
+                                if patented, enter a petn. for nonpaiment of quitrents<ref
+                                type="textual-note" target="n25"/> and want of cultivation and
+                                improvements. Also do the same with another</del> a tract of 300
+                                acres on the same creek. Mem. they are not certain of having exactly
+                                mentioned the number of acres. They have been surveied above 10
+                                years. </td>
+                        </tr>
+                        <tr valign="top" role="sday">
+                            <td colspan="3"/>
+                            <td xhtml:style="margin-left:1em;text-indent:-1em;">Rutherford ads.
+                                Buchanan. Wrote to def. to know his defence and inclosed a blank
+                                spa. </td>
+                        </tr>
+                        <tr valign="top" role="sday">
+                            <td colspan="3"/>
+                            <td xhtml:style="margin-left:1em;text-indent:-1em;">Devire and Daniel.
+                                Wrote to pl. to come to <gap extent="long"/> </td>
+                        </tr>
+                        <tr valign="top" role="month">
+                            <td>Nov.</td>
+                            <td role="day">
+                                <date>19.</date>
+                            </td>
+                            <td/>
+                            <td xhtml:style="margin-left:1em;text-indent:-1em;">Bowan ads. Buchanan.
+                                Wrote to Bowan to get his witnesses to attend in June with a spa. to
+                                save expence. If they will not to let me know before Feb. 1. and I
+                                will get spa. </td>
+                        </tr>
+                        <tr valign="top" role="sday">
+                            <td colspan="3"/>
+                            <td xhtml:style="margin-left:1em;text-indent:-1em;">Harrison v.
+                                Chamberlayne. Wrote to Wm. Smith sheriff of N. Kent, to suppress 2d.
+                                writ, and discharge def. from appearance. </td>
+                        </tr>
+                        <tr valign="top" role="sday">
+                            <td colspan="3"/>
+                            <td xhtml:style="margin-left:1em;text-indent:-1em;">Daniel Gwinn ads.
+                                Johns Stuart. Slander. Same as other suits. Mr. Madison directs to
+                                appear for def. </td>
+                        </tr>
+                        <tr valign="top" role="sday">
+                            <td colspan="3"/>
+                            <td xhtml:style="margin-left:1em;text-indent:-1em;">Jno. Mills (Augusta)
+                                v.  . See case. Recd. 10/. </td>
+                        </tr>
+                        <tr valign="top" role="sday">
+                            <td colspan="3"/>
+                            <td xhtml:style="margin-left:1em;text-indent:-1em;">James McKain
+                                (Augusta) v. Charles Patteson, Thomas Patteson, Wm. Bumpas, William
+                                Farguson and <del status="retain">John Jackson</del> a servt. of
+                                Bumpas whose name is forgot (but must be a def. to take off his
+                                evidence). It is John Jackson. (All in Buckingham except Farguson
+                                who <gap extent="oneortwoword"/> Prince Edward.) These people except
+                                Charles Patteson, being sheriffs and their assistants came to serve
+                                an exn. on a waggoner of Mills's (exn. came from Bedford). The negro
+                                was touched by the sheriff as he says, but as they say he was not
+                                but McKain and Samuel Crawford stept in between the sheriff and
+                                negro, and the negro made his escape. Upon this the sheriff (who as
+                                the pl. says had not told he was sheriff, but Patteson sais he did)
+                                tied McKain, and Crawford, carried them to Charles Patteson his
+                                brother who was a justice, and who committed them immediately to
+                                close goal, where they remained in the criminal's room 8 days.
+                                Notwithstanding Israel Christian offered himself as bail, or if they
+                                would allow him a few hours, to produce 3 or 4 others sufficient, or
+                                to deliver to the justice a waggon load of goods which he had there
+                                as a security; but he refused. To bring suit for McKain. </td>
+                        </tr>
+                        <tr valign="top" role="sday">
+                            <td colspan="3"/>
+                            <td xhtml:style="margin-left:1em;text-indent:-1em;">Samuel Crawford
+                                (Augusta) brings suit also. Mills answers for fees. </td>
+                        </tr>
+                        <tr valign="top" role="sday">
+                            <td colspan="3"/>
+                            <td xhtml:style="margin-left:1em;text-indent:-1em;">Israel Christian
+                                (Augusta) v. Bumpas and the two Pattesons. The three waggoners
+                                we<supplied>re</supplied> emploied in carrying goods for Christian
+                                <gap extent="oneortwoword"/> by the waggons being deserted above 50£
+                                <gap extent="oneortwoword"/> were stolen, and forced to hire other
+                                wagg<supplied cert="low">oners?</supplied>. </td>
+                        </tr>
+                        <tr valign="top" role="sday">
+                            <td colspan="3"/>
+                            <td xhtml:style="margin-left:1em;text-indent:-1em;">James Mccartey
+                                (Wmsburgh.) v. Wm. Waterson (Augusta). Debt on bond. To appear for
+                                pl. Recd. the bond. </td>
+                        </tr>
+                        <tr valign="top" role="sday">
+                            <td colspan="3"/>
+                            <td xhtml:style="margin-left:1em;text-indent:-1em;">Clark v. Coffee.
+                                Coffee has sold the land to John Ramsey (Augusta). Clarke thinks he
+                                can prove Ramsey knew of the petn. Coffee is gone to
+                                Carolin<supplied>e</supplied>. </td>
+                        </tr>
+                        <tr valign="top" role="sday">
+                            <td colspan="3"/>
+                            <td xhtml:style="margin-left:1em;text-indent:-1em;">Jeremiah Ragan
+                                (Augusta) directs to petn. agt. Patrick Cane (Caroline) for 300
+                                acres patented by Cane above 12 years ago, on the waters of Cook
+                                creek Augusta. </td>
+                        </tr>
+                        <tr valign="top" role="month">
+                            <td>Nov.</td>
+                            <td role="day">
+                                <date>20.</date>
+                            </td>
+                            <td/>
+                            <td xhtml:style="margin-left:1em;text-indent:-1em;">John Syme (Hanover)
+                                v. John Shelton (Augusta) and Patrick Henry (<del status="retain"
+                                >Hanover</del> Louisa. Friendly petn. See paper. </td>
+                        </tr>
+                        <tr valign="top" role="sday">
+                            <td colspan="3"/>
+                            <td xhtml:style="margin-left:1em;text-indent:-1em;">Waterson v. Waterson
+                                &amp; Smith. The pl. dismisses <del status="retain">as to
+                                Smith</del>. </td>
+                        </tr>
+                        <tr valign="top" role="sday">
+                            <td colspan="3"/>
+                            <td xhtml:style="margin-left:1em;text-indent:-1em;">Capt. Hog's case. He
+                                was sp. bail for a man who run away before the trial. A depon. taken
+                                de bene esse<ref type="textual-note" target="n26"/> was read at the
+                                trial tho' the deponent might have been present. This error was
+                                objected but overruled and an appeal thereon, but no bond was given
+                                by the appellant. A first and second sci. fa. is come out. Oyer of
+                                the recognisance will be demanded on the second, and the question is
+                                whether it will be too late then to give bond on the appeal? </td>
+                        </tr>
+                        <tr valign="top" role="month">
+                            <td>Nov.</td>
+                            <td role="day">
+                                <date>22.</date>
+                            </td>
+                            <td/>
+                            <td xhtml:style="margin-left:1em;text-indent:-1em;">Wrote to John
+                                May<ref type="textual-note" target="n27"/> to enter Caveats at the
+                                S. O.<ref type="textual-note" target="n28"/> viz. Ford v. Millar,
+                                <hi rend="italic">Frame v. Warwick</hi> &amp; Taliaferro v. Coffee.
+                                Also to issue writs in <hi rend="italic">Frame v. Burnside,
+                                Christian v. Patteson et al</hi>. and petns. in Johnston v.
+                                Patterson, <hi rend="italic">Ragan v. Cane</hi> and <hi
+                                rend="italic">Syme v. Shelton and Henry</hi>. Also to dismiss
+                                Waterson v. Waterson &amp; Smith. To plead by guardian for Jer.
+                                &amp; Andr. Talford in Rees v. Talford et al. To plead G. I. in
+                                Feilder v. Read, to let me know the sp. bail in Archer v. Dandridge,
+                                to search for and correct the summs. in Clarke v. Coffee, to send
+                                sci. fa. in <hi rend="italic">Hickman v. Harper</hi>, and to
+                                suppress 2d. writ in Harrison v. Chamberlayne. </td>
+                        </tr>
+                        <tr valign="top" role="month">
+                            <td>Nov.</td>
+                            <td role="day">
+                                <date>21.</date>
+                            </td>
+                            <td/>
+                            <td xhtml:style="margin-left:1em;text-indent:-1em;">Wm. Robertson's
+                                case. =I bequeath unto my son William Robertson 160 acres of land,
+                                but I do hereby order and allow that if my son Wm. die without male
+                                issue coming to the years of maturity that then the above sd. land
+                                shall relapse to my son Thomas Robertson and his heirs, allways
+                                provided his wife Eliz. shall enjoy the benefit of the sd. land and
+                                plantation while she remains a widow.' </td>
+                        </tr>
+                        <tr valign="top" role="month">
+                            <td>Dec.</td>
+                            <td role="day">
+                                <date>8.</date>
+                            </td>
+                            <td/>
+                            <td xhtml:style="margin-left:1em;text-indent:-1em;">Inclosed to
+                                Taliaferro his spa. agt. Coffee with directions to fill up the blank
+                                christian name. </td>
+                        </tr>
+                        <tr valign="top" role="sday">
+                            <td colspan="3"/>
+                            <td xhtml:style="margin-left:1em;text-indent:-1em;">Inclosed to Fr.
+                                Thorpe, Williams's release to him. By Colo. Calloway. </td>
+                        </tr>
+                        <tr valign="top" role="day">
+                            <td/>
+                            <td>
+                                <date>10.</date>
+                            </td>
+                            <td/>
+                            <td xhtml:style="margin-left:1em;text-indent:-1em;">Recd. of W.
+                                Allegre<ref type="textual-note" target="n29"/> 20/. </td>
+                        </tr>
+                        <tr valign="top" role="sday">
+                            <td colspan="3"/>
+                            <td xhtml:style="margin-left:1em;text-indent:-1em;"><del status="retain"
+                                >Pd. W. Lewis for Davies for a book of arithmetic 5/.</del> .ct <ref
+                                type="textual-note" target="n30"/> </td>
+                        </tr>
+                        <tr valign="top" role="sday">
+                            <td colspan="3"/>
+                            <td xhtml:style="margin-left:1em;text-indent:-1em;">
+                                <del status="retain">Pd. do. for venison 2/6.</del>
+                            </td>
+                        </tr>
+                        <tr valign="top" role="day">
+                            <td/>
+                            <td>
+                                <date>15.</date>
+                            </td>
+                            <td/>
+                            <td xhtml:style="margin-left:1em;text-indent:-1em;">Recd. from S. O.
+                                writs in Frame v. Burnside, Christian v. Patteson, the summs. in
+                                Ragan v. Cane, and Sci. fa. in Hickman v. Harper. Also 6. petns.
+                                friendly are entered in Syme v. Shelton &amp; Henry. </td>
+                        </tr>
+                        <tr valign="top" role="day">
+                            <td/>
+                            <td>
+                                <date>25.</date>
+                            </td>
+                            <td/>
+                            <td xhtml:style="margin-left:1em;text-indent:-1em;">James McKain informs
+                                be<ref type="textual-note" target="n31"/> by letter that Wm.
+                                Farguson and John Jackson are to be made defs. in his suit. </td>
+                        </tr>
+                        <tr valign="top" role="day">
+                            <td/>
+                            <td>
+                                <date>27.</date>
+                            </td>
+                            <td/>
+                            <td xhtml:style="margin-left:1em;text-indent:-1em;">Inclosed writ of A.
+                                Q. Damnum to Wm. Robertson for which I pd. in S. O. 5/. </td>
+                        </tr>
+                    </table>
+                </div1>
+            </body>
+        </text>
+    </TEI>
+</teiCorpus>

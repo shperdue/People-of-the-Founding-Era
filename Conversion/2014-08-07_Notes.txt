@@ -1,0 +1,5 @@
+
+- tbd: xlists, daylists, and all macros listed in script file
+- tbd: full sweep of spec. chars
+
+- [fy = font change

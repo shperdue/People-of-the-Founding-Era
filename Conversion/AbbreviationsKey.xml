@@ -1,0 +1,927 @@
+<?xml version="1.0"?>
+<abbrevs>
+    <row>
+        <abbr>Abbreviation</abbr>
+        <expan>Expansion</expan>
+    </row>
+    <row>
+        <abbr>A. Q. D.</abbr>
+        <expan>ad quod damnum</expan>
+    </row>
+    <row>
+        <abbr>accdly.</abbr>
+        <expan>accordingly</expan>
+    </row>
+    <row>
+        <abbr>addnal.</abbr>
+        <expan>additional</expan>
+    </row>
+    <row>
+        <abbr>adjg.</abbr>
+        <expan>adjoining</expan>
+    </row>
+    <row>
+        <abbr>admr.</abbr>
+        <expan>administrator</expan>
+    </row>
+    <row>
+        <abbr>ads.</abbr>
+        <expan>ad sectam</expan>
+    </row>
+    <row>
+        <abbr>A. G.</abbr>
+        <expan>Attorney General</expan>
+    </row>
+    <row>
+        <abbr>agt.</abbr>
+        <expan>against</expan>
+    </row>
+    <row>
+        <abbr>al. cap.</abbr>
+        <expan>alias capias</expan>
+    </row>
+    <row>
+        <abbr>Alb.</abbr>
+        <expan>Albermarle</expan>
+    </row>
+    <row>
+        <abbr>amt.</abbr>
+        <expan>amount</expan>
+    </row>
+    <row>
+        <abbr>appellt.</abbr>
+        <expan>appellant</expan>
+    </row>
+    <row>
+        <abbr>appl.</abbr>
+        <expan>appeal</expan>
+    </row>
+    <row>
+        <abbr>as.</abbr>
+        <expan>acres</expan>
+    </row>
+    <row>
+        <abbr>assee.</abbr>
+        <expan>assignee</expan>
+    </row>
+    <row>
+        <abbr>assnd.</abbr>
+        <expan>assigned</expan>
+    </row>
+    <row>
+        <abbr>assnmt.</abbr>
+        <expan>assignment</expan>
+    </row>
+    <row>
+        <abbr>attad.</abbr>
+        <expan>attached</expan>
+    </row>
+    <row>
+        <abbr>attamt.</abbr>
+        <expan>attachment</expan>
+    </row>
+    <row>
+        <abbr>atty.</abbr>
+        <expan>attorney</expan>
+    </row>
+    <row>
+        <abbr>Atty. G.</abbr>
+        <expan>Attorney General</expan>
+    </row>
+    <row>
+        <abbr>Aud.</abbr>
+        <expan>Auditor</expan>
+    </row>
+    <row>
+        <abbr>aux.</abbr>
+        <expan>auxiliary</expan>
+    </row>
+    <row>
+        <abbr multi-expansion="true">b.</abbr>
+        <expan>bottle, bushel</expan>
+    </row>
+    <row>
+        <abbr>B.</abbr>
+        <expan>barrel</expan>
+    </row>
+    <row>
+        <abbr>balas.</abbr>
+        <expan>balance</expan>
+    </row>
+    <row>
+        <abbr>bar.</abbr>
+        <expan>barrel</expan>
+    </row>
+    <row>
+        <abbr>B. B.</abbr>
+        <expan>Branch Bank</expan>
+    </row>
+    <row>
+        <abbr>bd.</abbr>
+        <expan>bound</expan>
+    </row>
+    <row>
+        <abbr>beg.</abbr>
+        <expan>being</expan>
+    </row>
+    <row>
+        <abbr>B. F. R.</abbr>
+        <expan>Benjamin Franklin Randolph</expan>
+    </row>
+    <row>
+        <abbr>B. I.</abbr>
+        <expan>Buck Island</expan>
+    </row>
+    <row>
+        <abbr>bk.</abbr>
+        <expan>bank</expan>
+    </row>
+    <row>
+        <abbr>bo.</abbr>
+        <expan>banco</expan>
+    </row>
+    <row>
+        <abbr>bot.</abbr>
+        <expan>bought</expan>
+    </row>
+    <row>
+        <abbr>B. P.</abbr>
+        <expan>Bernard Peyton</expan>
+    </row>
+    <row>
+        <abbr>B. R.</abbr>
+        <expan>Benjamin Franklin Randolph</expan>
+    </row>
+    <row>
+        <abbr>bra.</abbr>
+        <expan>branch</expan>
+    </row>
+    <row>
+        <abbr>brot.</abbr>
+        <expan>brought</expan>
+    </row>
+    <row>
+        <abbr>bu.</abbr>
+        <expan>bushel</expan>
+    </row>
+    <row>
+        <abbr>ca. sa.</abbr>
+        <expan>capias ad satisfaciendum</expan>
+    </row>
+    <row>
+        <abbr>canc.</abbr>
+        <expan>chancery</expan>
+    </row>
+    <row>
+        <abbr>cap.</abbr>
+        <expan>capias</expan>
+    </row>
+    <row>
+        <abbr>cav.</abbr>
+        <expan>caveat</expan>
+    </row>
+    <row>
+        <abbr>certif.</abbr>
+        <expan>certificate</expan>
+    </row>
+    <row>
+        <abbr>C. H.</abbr>
+        <expan>courthouse</expan>
+    </row>
+    <row>
+        <abbr>Chancy.</abbr>
+        <expan>chancery</expan>
+    </row>
+    <row>
+        <abbr>chart.</abbr>
+        <expan>chariot</expan>
+    </row>
+    <row>
+        <abbr>chy.</abbr>
+        <expan>chancery</expan>
+    </row>
+    <row>
+        <abbr>cold.</abbr>
+        <expan>colored</expan>
+    </row>
+    <row>
+        <abbr>com. l.</abbr>
+        <expan>common law</expan>
+    </row>
+    <row>
+        <abbr>commd.</abbr>
+        <expan>committed</expan>
+    </row>
+    <row>
+        <abbr>commn.</abbr>
+        <expan>commission</expan>
+    </row>
+    <row>
+        <abbr>commrs.</abbr>
+        <expan>commissioners</expan>
+    </row>
+    <row>
+        <abbr>conc.</abbr>
+        <expan>council</expan>
+    </row>
+    <row>
+        <abbr>condn.</abbr>
+        <expan>condition</expan>
+    </row>
+    <row>
+        <abbr>cont.</abbr>
+        <expan>contingencies</expan>
+    </row>
+    <row>
+        <abbr>contd.</abbr>
+        <expan>continued</expan>
+    </row>
+    <row>
+        <abbr>counc.</abbr>
+        <expan>council</expan>
+    </row>
+    <row>
+        <abbr>covt.</abbr>
+        <expan>covenant</expan>
+    </row>
+    <row>
+        <abbr>cr.</abbr>
+        <expan>credit</expan>
+    </row>
+    <row>
+        <abbr>ct.</abbr>
+        <expan>court</expan>
+    </row>
+    <row>
+        <abbr>cult.</abbr>
+        <expan>cultivation</expan>
+    </row>
+    <row>
+        <abbr>Cwt.</abbr>
+        <expan>hundredweight</expan>
+    </row>
+    <row>
+        <abbr multi-expansion="true">D.</abbr>
+        <expan>dollar, day</expan>
+    </row>
+    <row>
+        <abbr>dam.</abbr>
+        <expan>damages</expan>
+    </row>
+    <row>
+        <abbr>D. ct.</abbr>
+        <expan>district court</expan>
+    </row>
+    <row>
+        <abbr>decln.</abbr>
+        <expan>declaration</expan>
+    </row>
+    <row>
+        <abbr>def.</abbr>
+        <expan>defendant</expan>
+    </row>
+    <row>
+        <abbr>dele.</abbr>
+        <expan>delete</expan>
+    </row>
+    <row>
+        <abbr>depon.</abbr>
+        <expan>deposition</expan>
+    </row>
+    <row>
+        <abbr>disct.</abbr>
+        <expan>discount</expan>
+    </row>
+    <row>
+        <abbr>dismd.</abbr>
+        <expan>dismissed</expan>
+    </row>
+    <row>
+        <abbr>divn.</abbr>
+        <expan>division</expan>
+    </row>
+    <row>
+        <abbr>do.</abbr>
+        <expan>ditto</expan>
+    </row>
+    <row multi-expansion="true">
+        <abbr>dr.</abbr>
+        <expan>debtor, debit</expan>
+    </row>
+    <row>
+        <abbr>E. C.</abbr>
+        <expan>Edward Carter</expan>
+    </row>
+    <row>
+        <abbr>ejmt.</abbr>
+        <expan>ejectment</expan>
+    </row>
+    <row>
+        <abbr>ent.</abbr>
+        <expan>enter</expan>
+    </row>
+    <row>
+        <abbr>entd.</abbr>
+        <expan>entered</expan>
+    </row>
+    <row>
+        <abbr>entt.</abbr>
+        <expan>entertainment</expan>
+    </row>
+    <row>
+        <abbr multi-expansion="true">eosd.</abbr>
+        <expan>eosdem, the same (defendants)</expan>
+    </row>
+    <row>
+        <abbr>E. P.</abbr>
+        <expan>Edmund Pendleton</expan>
+    </row>
+    <row>
+        <abbr>E. R.</abbr>
+        <expan>Edmund Randolph</expan>
+    </row>
+    <row>
+        <abbr>est.</abbr>
+        <expan>estate</expan>
+    </row>
+    <row>
+        <abbr multi-expansion="true">eund.</abbr>
+        <expan>eundem, the same (defendants)</expan>
+    </row>
+    <row>
+        <abbr>exce.</abbr>
+        <expan>executrix</expan>
+    </row>
+    <row>
+        <abbr>excha.</abbr>
+        <expan>exchange</expan>
+    </row>
+    <row>
+        <abbr>execn.</abbr>
+        <expan>execution</expan>
+    </row>
+    <row>
+        <abbr>exn.</abbr>
+        <expan>execution</expan>
+    </row>
+    <row>
+        <abbr>exp.</abbr>
+        <expan>expenses</expan>
+    </row>
+    <row>
+        <abbr>exrs.</abbr>
+        <expan>executors</expan>
+    </row>
+    <row>
+        <abbr multi-expansion="true">f.</abbr>
+        <expan>for, franc</expan>
+    </row>
+    <row>
+        <abbr>F.'s bank</abbr>
+        <expan>Farmer�s bank</expan>
+    </row>
+    <row>
+        <abbr>fi. fa.</abbr>
+        <expan>fieri facias</expan>
+    </row>
+    <row>
+        <abbr>fo.</abbr>
+        <expan>fork</expan>
+    </row>
+    <row>
+        <abbr>fr.</abbr>
+        <expan>francs</expan>
+    </row>
+    <row>
+        <abbr>frd.</abbr>
+        <expan>friend</expan>
+    </row>
+    <row>
+        <abbr>frdly.</abbr>
+        <expan>friendly</expan>
+    </row>
+    <row>
+        <abbr>frt.</abbr>
+        <expan>freight</expan>
+    </row>
+    <row>
+        <abbr>G. &amp; J.</abbr>
+        <expan>Gibson &amp; Jefferson</expan>
+    </row>
+    <row>
+        <abbr>G. C.</abbr>
+        <expan>General Court</expan>
+    </row>
+    <row>
+        <abbr>G. I.</abbr>
+        <expan>general issue</expan>
+    </row>
+    <row>
+        <abbr>Ge. Ct.</abbr>
+        <expan>General Court</expan>
+    </row>
+    <row>
+        <abbr>gog.</abbr>
+        <expan>going</expan>
+    </row>
+    <row>
+        <abbr>Gov</abbr>
+        <expan>Governor</expan>
+    </row>
+    <row>
+        <abbr>G. W.</abbr>
+        <expan>George Wythe</expan>
+    </row>
+    <row>
+        <abbr>hab. corp.</abbr>
+        <expan>habeas corpus</expan>
+    </row>
+    <row>
+        <abbr multi-expansion="true">hhd.</abbr>
+        <expan>hogshead, household</expan>
+    </row>
+    <row>
+        <abbr>H. of R.</abbr>
+        <expan>House of Representatives</expan>
+    </row>
+    <row>
+        <abbr>hygr.</abbr>
+        <expan>hygrometer</expan>
+    </row>
+    <row>
+        <abbr>id.</abbr>
+        <expan>idem</expan>
+    </row>
+    <row>
+        <abbr multi-expansion="true">iid.</abbr>
+        <expan>eidem, the same (plaintiffs)</expan>
+    </row>
+    <row>
+        <abbr>impr.</abbr>
+        <expan>improvements</expan>
+    </row>
+    <row>
+        <abbr>injn.</abbr>
+        <expan>injunction</expan>
+    </row>
+    <row>
+        <abbr>instrn.</abbr>
+        <expan>instruction</expan>
+    </row>
+    <row>
+        <abbr>int.</abbr>
+        <expan>interest</expan>
+    </row>
+    <row>
+        <abbr>issd.</abbr>
+        <expan>issued</expan>
+    </row>
+    <row>
+        <abbr>I. W. E.</abbr>
+        <expan>John Wayles Eppes</expan>
+    </row>
+    <row>
+        <abbr multi-expansion="true">J. B.</abbr>
+        <expan>John Blair, Jr.; after 1800 John Barnes</expan>
+    </row>
+    <row>
+        <abbr>jdmt.</abbr>
+        <expan>judgment</expan>
+    </row>
+    <row>
+        <abbr multi-expansion="true">J. M.</abbr>
+        <expan>John Madison, Jr.; after 1790 James Madison</expan>
+    </row>
+    <row>
+        <abbr>Jup.</abbr>
+        <expan>Jupiter</expan>
+    </row>
+    <row>
+        <abbr>J. W.</abbr>
+        <expan>John Walker</expan>
+    </row>
+    <row>
+        <abbr>lds.</abbr>
+        <expan>lands</expan>
+    </row>
+    <row>
+        <abbr>levd.</abbr>
+        <expan>levied</expan>
+    </row>
+    <row>
+        <abbr>L. F.</abbr>
+        <expan>law fund</expan>
+    </row>
+    <row>
+        <abbr>limns.</abbr>
+        <expan>limitations</expan>
+    </row>
+    <row>
+        <abbr>lre.</abbr>
+        <expan>letter</expan>
+    </row>
+    <row>
+        <abbr>mem.</abbr>
+        <expan>memorandum</expan>
+    </row>
+    <row>
+        <abbr>memdm.</abbr>
+        <expan>memorandum</expan>
+    </row>
+    <row>
+        <abbr>memm.</abbr>
+        <expan>memorandum</expan>
+    </row>
+    <row>
+        <abbr>mge.</abbr>
+        <expan>mortgage</expan>
+    </row>
+    <row>
+        <abbr>mgee.</abbr>
+        <expan>mortgagee</expan>
+    </row>
+    <row>
+        <abbr>mged.</abbr>
+        <expan>mortgaged</expan>
+    </row>
+    <row>
+        <abbr>mgor.</abbr>
+        <expan>mortgagor</expan>
+    </row>
+    <row>
+        <abbr>M. L. R.</abbr>
+        <expan>Meriwether Lewis Randolph</expan>
+    </row>
+    <row>
+        <abbr>mo.</abbr>
+        <expan>month</expan>
+    </row>
+    <row>
+        <abbr>Monto.</abbr>
+        <expan>Monticello</expan>
+    </row>
+    <row>
+        <abbr>M. P.</abbr>
+        <expan>Minister Plenipotentiary</expan>
+    </row>
+    <row>
+        <abbr>M. R.</abbr>
+        <expan>Martha J. Randolph</expan>
+    </row>
+    <row>
+        <abbr>Mrs. J.</abbr>
+        <expan>Martha Jefferson</expan>
+    </row>
+    <row>
+        <abbr>Mrs. Jeff.</abbr>
+        <expan>Jane Randolph Jefferson</expan>
+    </row>
+    <row>
+        <abbr>Mrs. R.</abbr>
+        <expan>Martha J. Randolph</expan>
+    </row>
+    <row>
+        <abbr>n.</abbr>
+        <expan>new</expan>
+    </row>
+    <row>
+        <abbr>N. G.</abbr>
+        <expan>North Garden</expan>
+    </row>
+    <row>
+        <abbr>N. M.</abbr>
+        <expan>Nicholas Meriwether</expan>
+    </row>
+    <row>
+        <abbr>N. S.</abbr>
+        <expan>new summons</expan>
+    </row>
+    <row>
+        <abbr>opn.</abbr>
+        <expan>opinion</expan>
+    </row>
+    <row>
+        <abbr>ord.</abbr>
+        <expan>order</expan>
+    </row>
+    <row>
+        <abbr>ord. conc.</abbr>
+        <expan>order of council</expan>
+    </row>
+    <row>
+        <abbr>pat.</abbr>
+        <expan>patent</expan>
+    </row>
+    <row>
+        <abbr>patt.</abbr>
+        <expan>patent</expan>
+    </row>
+    <row>
+        <abbr>patd.</abbr>
+        <expan>patented</expan>
+    </row>
+    <row>
+        <abbr>p. c.</abbr>
+        <expan>percent</expan>
+    </row>
+    <row>
+        <abbr>p. ct.</abbr>
+        <expan>percent</expan>
+    </row>
+    <row>
+        <abbr>pd.</abbr>
+        <expan>paid</expan>
+    </row>
+    <row>
+        <abbr>pen.</abbr>
+        <expan>pending</expan>
+    </row>
+    <row>
+        <abbr>petn.</abbr>
+        <expan>petition</expan>
+    </row>
+    <row>
+        <abbr>P. F.</abbr>
+        <expan>Poplar Forest</expan>
+    </row>
+    <row>
+        <abbr>P. G.</abbr>
+        <expan>Patrick Gibson</expan>
+    </row>
+    <row>
+        <abbr>P. H.</abbr>
+        <expan>President�s House</expan>
+    </row>
+    <row>
+        <abbr multi-expansion="true">pl.</abbr>
+        <expan>plaintiff, pluries</expan>
+    </row>
+    <row>
+        <abbr>Pr.'s H.</abbr>
+        <expan>President�s House</expan>
+    </row>
+    <row>
+        <abbr>q.r.</abbr>
+        <expan>quitrents</expan>
+    </row>
+    <row>
+        <abbr>qties.</abbr>
+        <expan>quantities</expan>
+    </row>
+    <row>
+        <abbr>qu.</abbr>
+        <expan>quare</expan>
+    </row>
+    <row>
+        <abbr>r.</abbr>
+        <expan>rent</expan>
+    </row>
+    <row>
+        <abbr>R. C. N.</abbr>
+        <expan>Robert Carter Nicholas</expan>
+    </row>
+    <row>
+        <abbr>rd.</abbr>
+        <expan>received</expan>
+    </row>
+    <row>
+        <abbr>rect.</abbr>
+        <expan>receipt</expan>
+    </row>
+    <row>
+        <abbr>refce.</abbr>
+        <expan>reference</expan>
+    </row>
+    <row>
+        <abbr>remd.</abbr>
+        <expan>remitted</expan>
+    </row>
+    <row>
+        <abbr>retd.</abbr>
+        <expan>returned</expan>
+    </row>
+    <row>
+        <abbr>retnble.</abbr>
+        <expan>returnable</expan>
+    </row>
+    <row>
+        <abbr>revd. &amp; remd.</abbr>
+        <expan>reversed and remanded</expan>
+    </row>
+    <row>
+        <abbr>revn.</abbr>
+        <expan>reversion</expan>
+    </row>
+    <row>
+        <abbr>rts.</abbr>
+        <expan>rights</expan>
+    </row>
+    <row>
+        <abbr>sa.</abbr>
+        <expan>same</expan>
+    </row>
+    <row>
+        <abbr>sci. fa.</abbr>
+        <expan>scire facias</expan>
+    </row>
+    <row>
+        <abbr multi-expansion="true">sd.</abbr>
+        <expan>said, send</expan>
+    </row>
+    <row>
+        <abbr>sec.</abbr>
+        <expan>security</expan>
+    </row>
+    <row>
+        <abbr>Sec.</abbr>
+        <expan>Secretary</expan>
+    </row>
+    <row>
+        <abbr>seisd.</abbr>
+        <expan>seised</expan>
+    </row>
+    <row>
+        <abbr>sher.</abbr>
+        <expan>sheriff</expan>
+    </row>
+    <row>
+        <abbr>sm.</abbr>
+        <expan>small</expan>
+    </row>
+    <row>
+        <abbr>S. O.</abbr>
+        <expan>Secretary�s Office</expan>
+    </row>
+    <row>
+        <abbr>somet.</abbr>
+        <expan>sometimes</expan>
+    </row>
+    <row>
+        <abbr>sp. bail</abbr>
+        <expan>special bail</expan>
+    </row>
+    <row>
+        <abbr>spa.</abbr>
+        <expan>subpoena</expan>
+    </row>
+    <row>
+        <abbr>spa. ad test.</abbr>
+        <expan>subpoena ad testificandum</expan>
+    </row>
+    <row>
+        <abbr>spa. in canc.</abbr>
+        <expan>subpoena in chancery</expan>
+    </row>
+    <row>
+        <abbr>st.</abbr>
+        <expan>sterling</expan>
+    </row>
+    <row>
+        <abbr>stat.</abbr>
+        <expan>statute</expan>
+    </row>
+    <row>
+        <abbr>subpa.</abbr>
+        <expan>subpoena</expan>
+    </row>
+    <row>
+        <abbr>sum.</abbr>
+        <expan>summons</expan>
+    </row>
+    <row>
+        <abbr>summs.</abbr>
+        <expan>summons</expan>
+    </row>
+    <row>
+        <abbr>supersed.</abbr>
+        <expan>supersedeas</expan>
+    </row>
+    <row>
+        <abbr>survd.</abbr>
+        <expan>surveyed</expan>
+    </row>
+    <row>
+        <abbr multi-expansion="true">TAB</abbr>
+        <expan>trespass, assault and battery</expan>
+    </row>
+    <row>
+        <abbr>ten.</abbr>
+        <expan>tenant</expan>
+    </row>
+    <row>
+        <abbr>test. cap.</abbr>
+        <expan>testatum capias</expan>
+    </row>
+    <row>
+        <abbr>testr.</abbr>
+        <expan>testator</expan>
+    </row>
+    <row>
+        <abbr>th.</abbr>
+        <expan>thermometer</expan>
+    </row>
+    <row>
+        <abbr>Th. J. R.</abbr>
+        <expan>Thomas Jefferson Randolph</expan>
+    </row>
+    <row>
+        <abbr>T. I.</abbr>
+        <expan>Thomas Jefferson</expan>
+    </row>
+    <row>
+        <abbr>T. J. R.</abbr>
+        <expan>Thomas Jefferson Randolph</expan>
+    </row>
+    <row>
+        <abbr>TMR</abbr>
+        <expan>Thomas Mann Randolph</expan>
+    </row>
+    <row>
+        <abbr multi-expansion="true">T. N.</abbr>
+        <expan>Thomas Nelson, Jr.</expan>
+    </row>
+    <row>
+        <abbr>tobo.</abbr>
+        <expan>tobacco</expan>
+    </row>
+    <row>
+        <abbr multi-expansion="true">tresp. ass.</abbr>
+        <expan>trespass, assault</expan>
+    </row>
+    <row>
+        <abbr>v.</abbr>
+        <expan>versus</expan>
+    </row>
+    <row>
+        <abbr>verd.</abbr>
+        <expan>verdict</expan>
+    </row>
+    <row>
+        <abbr>warrt.</abbr>
+        <expan>warrant</expan>
+    </row>
+    <row>
+        <abbr>witn.</abbr>
+        <expan>witness</expan>
+    </row>
+    <row>
+        <abbr>wrt.</abbr>
+        <expan>writ</expan>
+    </row>
+    <row>
+        <abbr>ws.</abbr>
+        <expan>works</expan>
+    </row>
+    <row>
+        <abbr multi-expansion="true">wt.</abbr>
+        <expan>want, weight</expan>
+    </row>
+    <row>
+        <abbr>xchge.</abbr>
+        <expan>exchange</expan>
+    </row>
+    <row>
+        <abbr>xp.</abbr>
+        <expan>expenses</expan>
+    </row>
+    <row>
+        <abbr>y.</abbr>
+        <expan>year</expan>
+    </row>
+    <row>
+        <abbr>JWE</abbr>
+        <expan>John Wayles Eppes</expan>
+    </row>
+    <row>
+        <abbr>MB</abbr>
+        <expan>Memorandum Books</expan>
+    </row>
+    <row>
+        <abbr>MJE</abbr>
+        <expan>Maria Jefferson Eppes</expan>
+    </row>
+    <row>
+        <abbr>MJR</abbr>
+        <expan>Martha Jefferson Randolph</expan>
+    </row>
+    <row>
+        <abbr>MS</abbr>
+        <expan>Manuscript</expan>
+    </row>
+    <row>
+        <abbr>PJ</abbr>
+        <expan>Peter Jefferson</expan>
+    </row>
+    <row>
+        <abbr>RJ</abbr>
+        <expan>Randolph Jefferson</expan>
+    </row>
+    <row>
+        <abbr>TJ</abbr>
+        <expan>Thomas Jefferson</expan>
+    </row>
+    <row>
+        <abbr multi-expansion="true">TMR</abbr>
+        <expan>Thomas Mann Randolph, Jr.</expan>
+    </row>
+</abbrevs>
