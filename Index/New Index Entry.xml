@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="http://ptrjs2.dataformat.com/local/ObjectCollection2html_clean.xsl" type="text/xsl"?>
+<!DOCTYPE ObjectCollection SYSTEM "http://ptjrs2.dataformat.com/local/ObjectCollection.dtd">
+<ObjectCollection>
+    <Object docDesc="" sortkey="" link-target-type="index" entry="0" title="IndexEntries" url="0" status="Active">
+        <!-- Don't forget to fill in the 'docDesc' and 'sortkey' attributes. -->
+        <IndexEntry>
+            <MainEntryGrp>
+                <Entry url="0">
+                    <Body/>
+                </Entry>
+            </MainEntryGrp>
+        </IndexEntry>
+    </Object>
+</ObjectCollection>

@@ -1,0 +1,367 @@
+<!-- ObjectCollection XML DTD for PTJRS -->
+<!-- Structures for housing non-core documents -->
+<!-- version: 2013-10-17 by IDM USA, LLC -->
+<!ENTITY % fieldContent "#PCDATA | render | br | uri" >
+
+
+<!-- parameter entities -->
+<!ENTITY % urlAttr "url	CDATA '0'" >
+<!ENTITY % refurlAttr "refurl	CDATA '0'" >
+<!-- @link-target-type=text is for ships -->
+<!ENTITY % link-target-type "link-target-type (person | repository | place | index | NameAuth | illustration | text) 'person'" >
+<!ENTITY % link-pointer-type "link-pointer-type (person | repository | place | index | NameAuth | illustration) 'person'" >
+<!ENTITY % regAttr "reg CDATA #IMPLIED">
+<!ENTITY % xmlSpaceAttr "xml:space (default|preserve) 'preserve'" >
+<!ENTITY % EntryContent "#PCDATA | title | name | TaxonomicInfo | render | link | ref" >
+<!ENTITY  % editorial-conventions "add | del | gap | supplied" >
+<!ENTITY % common.phrase "#PCDATA | render | bibl | foreign | q | person | place | link | title | ship | %editorial-conventions;" >
+
+
+<!-- link element -->
+<!ELEMENT link		(#PCDATA | render)* >
+<!ATTLIST link		target CDATA #IMPLIED 
+			link-pointer-type (relatedDocument | repository | person | place | index) "relatedDocument" 
+			reg CDATA #IMPLIED >
+
+
+<!-- uri element for containing web links -->
+<!ELEMENT  uri    (#PCDATA) >
+
+<!-- root container element				-->
+<!ELEMENT ObjectCollection (Object+) >
+
+<!-- Document level container is Object			-->
+<!ELEMENT Object (Header?, (Correspondent | Place | IndexEntry+ | AuthorityRecord | ThesaurusEntry | Illustration)) >
+<!ATTLIST Object entry	CDATA '0'
+                 %urlAttr;
+		 sortkey CDATA #IMPLIED
+		 title CDATA #IMPLIED
+		 docDesc CDATA #IMPLIED
+		 status (Active|Suppressed|Deleted) "Active"
+		 %link-target-type;
+>
+
+<!-- Header element added 2010-03-17. Used only for index entries right now, but added thus . . . since that's a good idea.  -->
+<!ELEMENT Header (Note*, RelatedDocs) >
+<!ELEMENT RelatedDocs (link*) >
+
+
+<!-- ========= Name Authority Records  ========= -->
+<!ELEMENT AuthorityRecord ((PersonalName | CorpName), NameVariant*, SeeAlsoTrace*, Source*, HistData*, ContactInfo*) >
+
+<!ELEMENT PersonalName (Name, Num?, Titles?, Dates?, Misc?, FullerForm?, Ctrl?) >
+<!ATTLIST PersonalName  type (forename | surname | familyname) #IMPLIED >
+<!ELEMENT Num (#PCDATA) >
+<!ELEMENT Titles (#PCDATA) >
+<!ELEMENT Misc (#PCDATA) >
+<!ELEMENT FullerForm (#PCDATA | Dates)* >
+<!ELEMENT Ctrl EMPTY >
+<!ATTLIST Ctrl info CDATA #IMPLIED >
+
+<!ELEMENT CorpName (Name, SubUnit?, Dates?, Misc?) >
+<!ATTLIST CorpName type (inverted | jurisdiction | directorder) #IMPLIED >
+<!ELEMENT SubUnit (#PCDATA) >
+
+<!ELEMENT NameVariant (Name, Num?, Titles?, Dates?, Misc?, FullerForm?, Ctrl?) >
+<!ATTLIST NameVariant  type (forename | surname | familyname | inverted | jurisdiction | directorder) #IMPLIED >
+
+<!ELEMENT SeeAlsoTrace (Name, SubUnit?, Num?, Titles?, Dates?, Misc?, FullerForm?, Ctrl?) ><!-- makes do for both personal and corporate-->
+<!ATTLIST SeeAlsoTrace type (forename | surname | familyname | inverted | jurisdiction | directorder) #IMPLIED >
+
+<!ELEMENT Source (Cite, Info?, uri?) >
+<!ELEMENT Cite (#PCDATA) >
+<!ELEMENT Info (#PCDATA) >
+
+<!ELEMENT HistData (Cite, Info?, uri?) >
+
+<!-- This ContactInfo is not a direct mapping from MARC records, but rather an add on so we can utilize the corporate
+name structure for our own repository records -->
+<!ELEMENT ContactInfo (Name, Occupation?, Address?, City?, State?, email?, phone*, uri*) >
+<!ELEMENT email (#PCDATA) >
+<!ELEMENT phone (#PCDATA) >
+
+<!-- ========= Thesaurus Records  ========= -->
+<!ELEMENT ThesaurusEntry (Term, TermVariant+) >
+<!ELEMENT Term (#PCDATA) >
+<!ELEMENT TermVariant (#PCDATA) >
+<!ATTLIST  TermVariant %xmlSpaceAttr; >
+
+
+<!-- ========= Index Entries  ========= -->
+<!ELEMENT IndexEntry (MainEntryGrp) >
+<!ATTLIST IndexEntry findString CDATA #IMPLIED >
+
+<!ELEMENT MainEntryGrp (Head?, Entry) >
+
+<!ELEMENT SubEntryGrp (Head?, SubEntry+) >
+
+<!ELEMENT Entry (Body,  VolumeInfo?, SubEntryGrp*, ref?)>
+<!ATTLIST Entry	%urlAttr;  
+                    link-target-type CDATA #FIXED "index"
+                    autoInclude CDATA #IMPLIED
+                    >
+
+<!ELEMENT SubEntry (Body, VolumeInfo?, SubSubEntry*, ref?)>
+<!ATTLIST SubEntry	%urlAttr; 
+                    link-target-type CDATA #FIXED "index"
+                    autoInclude CDATA #IMPLIED 
+                    >
+
+<!ELEMENT SubSubEntry (Body, VolumeInfo?)>
+<!ATTLIST SubSubEntry	%urlAttr; 
+                    link-target-type CDATA #FIXED "index"
+                    autoInclude CDATA #IMPLIED >
+
+<!ELEMENT Body (%EntryContent;)* >
+<!ATTLIST Body	DocID CDATA #IMPLIED >
+
+<!ELEMENT ref (%EntryContent;)* >
+
+<!ELEMENT Head (#PCDATA) >
+<!ELEMENT LatinName (#PCDATA) >
+<!ELEMENT CommonName (#PCDATA) >
+<!ELEMENT TaxonomicInfo (LatinName?, CommonName?) >
+<!ELEMENT VolumeInfo (pn+) >
+<!ELEMENT pn (#PCDATA | render | illust)* >
+<!ATTLIST pn    
+                        doc CDATA #IMPLIED 
+                        n CDATA #IMPLIED
+                        type (new_doc | moved_doc) #IMPLIED >
+<!ELEMENT illust (#PCDATA | render)* >
+
+<!-- mimic elements in document dtd-->
+<!ELEMENT title (#PCDATA | render)* >
+<!ATTLIST title level (monograph | journal | article | newspaper | unpublished | artwork | musiclong | musicshort | play | poemlong | poemshort | series) #REQUIRED 
+	xml:space (default|preserve) #IMPLIED>
+<!ELEMENT name (#PCDATA | render)* >
+<!ATTLIST name type (org | place | person | ship | title | person_sig) "person">
+<!ELEMENT ship (#PCDATA | render)* >
+
+
+
+<!-- ========= Correspondent Objects  ========= -->
+<!ELEMENT Correspondent (BioInfo, Paperwork, Research) >
+<!ATTLIST Correspondent	status (NoWorkDone | FileCreated | ResearchInProgress | Done | Unidentifiable | NoIDReqd | NoIDPossible) #IMPLIED 
+			FirstEnteredBy CDATA #IMPLIED>
+
+<!ELEMENT BioInfo (FullName?, FirstName?, LastName?, ProjectUseName?, Alias?, Honor?, Qualifier?, Title?, (Dates | (BirthDate,
+DeathDate))?, Org?, Occupation?, Address?, City?, State?, ProjectBio?) >
+
+<!ELEMENT Paperwork ((DateofFirstDocument?, DateofFirstMention?,
+TJPRSIDlocation?, TJPIDlocation?, NotesonWritingStyle?) | (Event+, Format, Cite, RSPublished)) >
+
+<!--<!ELEMENT Research (ProjectBio?, Obituary?, ProbateDocuments?, Note*) >-->
+
+<!ELEMENT Research (Obituary?, ProbateDocuments?, Note*, FrontMatterNote?) >
+
+<!ELEMENT ProjectBio (p+) >
+<!ATTLIST ProjectBio     resp NMTOKEN #IMPLIED
+                                            date CDATA #IMPLIED 
+                                            docNumber    NMTOKEN #IMPLIED
+                                            n  NMTOKEN   #IMPLIED >
+
+<!ELEMENT FullName (#PCDATA | FirstName | LastName)* >
+
+<!ELEMENT LastName	(#PCDATA) >
+
+<!ELEMENT FirstName	(#PCDATA) >
+
+<!ELEMENT Qualifier	(#PCDATA) >
+
+<!ELEMENT Address	(#PCDATA) >
+
+<!ELEMENT City		(#PCDATA) >
+<!ATTLIST  City		%regAttr;  >
+                                            
+<!ELEMENT State		(#PCDATA) >
+<!ATTLIST  State		%regAttr;  >
+
+<!ELEMENT Note		(%fieldContent;)* >
+<!ATTLIST  Note		%xmlSpaceAttr; >
+
+<!ELEMENT Honor		(#PCDATA) >
+
+<!ELEMENT Title		(#PCDATA) >
+
+<!ELEMENT Alias		(#PCDATA) >
+
+<!ELEMENT Dates		(#PCDATA) >
+
+<!ELEMENT BirthDate		(#PCDATA) >
+
+<!ELEMENT DeathDate		(#PCDATA) >
+
+<!ELEMENT DateofFirstDocument	(#PCDATA) >
+
+<!ELEMENT DateofFirstMention	(#PCDATA) >
+
+<!ELEMENT Org	(#PCDATA) >
+<!ATTLIST Org    type (business|charitable|educational|learned|government|political|religious|other) #REQUIRED >
+
+<!ELEMENT TJPRSIDlocation		(%fieldContent; | link)* >
+<!ATTLIST  TJPRSIDlocation %xmlSpaceAttr; >
+
+<!ELEMENT TJPIDlocation		(%fieldContent; | link)* >
+<!ATTLIST  TJPIDlocation %xmlSpaceAttr; >
+
+<!ELEMENT Occupation	(#PCDATA) >
+
+<!ELEMENT ProjectUseName	(#PCDATA) >
+
+<!ELEMENT NotesonWritingStyle	(%fieldContent; | link)* >
+<!ATTLIST  NotesonWritingStyle %xmlSpaceAttr; >
+
+<!ELEMENT Obituary		(%fieldContent;)* >
+<!ATTLIST  Obituary %xmlSpaceAttr; >
+
+<!ELEMENT ProbateDocuments	(#PCDATA) >
+
+<!ELEMENT br		EMPTY >
+
+<!ELEMENT render 	(#PCDATA | render)* >
+<!ATTLIST render 
+	as (superscript | italic | bold | bolditalic | subscript | superior | underscore | dblunderscore | triunderscore | smallcap | strikethrough | inherit | uncial | vertical) "superscript" 
+	%xmlSpaceAttr; >
+
+
+<!-- 2007-12-26: additions made to facilitate storage of bios in correspondent records -->
+<!ELEMENT bibl      (#PCDATA | char | title | link | q)* >
+<!ATTLIST bibl 
+	default (YES | NO) "NO"
+	TEIform CDATA "bibl" 
+	xml:space (default|preserve) #IMPLIED>
+<!ELEMENT char     (#PCDATA) >
+<!ELEMENT q           (%common.phrase;)* >
+<!ATTLIST q 
+	direct (y | n | unspecified) "unspecified"
+	TEIform CDATA "q" 
+	xml:space (default|preserve) #IMPLIED >
+	
+<!-- 2009-03-02: Further additions of MEP elements for use in the project bios. Unfortunately, we can't use a common dtd chunk for these.
+        (The content models here are simplified from MyPizza.dtd. -->
+<!ELEMENT person	(%common.phrase;)* >
+<!ATTLIST person	target NMTOKEN #REQUIRED 
+			key CDATA #IMPLIED 
+			reg CDATA #IMPLIED 
+			type CDATA #IMPLIED 
+		              link-pointer-type CDATA #FIXED 'person' 
+	                            %xmlSpaceAttr;>
+
+
+<!ELEMENT place 	(%common.phrase;)*>
+<!ATTLIST place        target NMTOKEN #REQUIRED
+		        reg CDATA #IMPLIED
+		        link-pointer-type CDATA #FIXED 'place' 
+	                       %xmlSpaceAttr;>
+
+<!ELEMENT foreign        (%common.phrase;)* >
+<!ATTLIST foreign 
+	rend CDATA #IMPLIED
+	%xmlSpaceAttr;>
+
+<!ELEMENT add	(%common.phrase;)* >
+<!ATTLIST add 
+	rend CDATA #IMPLIED
+	resp IDREF #IMPLIED
+	cert CDATA #IMPLIED
+	hand IDREF #IMPLIED
+	%xmlSpaceAttr;>
+
+<!ELEMENT del             (%common.phrase;)* >
+<!ATTLIST del 
+	rend CDATA #IMPLIED
+	type CDATA #IMPLIED
+	status (unremarkable | retain) "unremarkable"
+	resp IDREF #IMPLIED
+	cert CDATA #IMPLIED
+	hand IDREF #IMPLIED
+	%xmlSpaceAttr;>
+
+<!ELEMENT gap	EMPTY >
+<!ATTLIST gap 
+	rend CDATA #IMPLIED
+	desc CDATA #IMPLIED
+	extent (oneortwoword | oneortwowordend | long | longend | 1digit | 2digit | 3digit | 4digit | 5digit | 6digit) "oneortwoword"
+	resp IDREF #IMPLIED
+	hand IDREF #IMPLIED
+	reason (illegible | damage | missing) #REQUIRED
+	agent CDATA #IMPLIED>
+
+<!ELEMENT supplied     (%common.phrase;)* >
+<!ATTLIST supplied 
+	rend CDATA #IMPLIED
+	reason (illegible | damage | editoriallyadded | othertext) #REQUIRED
+	resp CDATA #IMPLIED
+	hand IDREF #IMPLIED
+	agent CDATA #IMPLIED
+	source CDATA #IMPLIED
+	cert (somedoubt | muchdoubt | nodoubt) "somedoubt"
+	%xmlSpaceAttr;>
+
+
+<!-- ========= Place Objects  ========= -->
+<!ELEMENT Place (Name, AlternateName*, City?, State?, County?, Nation?, Coordinates?, Description?, Note?) >
+
+<!ELEMENT Name		(#PCDATA) >
+
+<!ELEMENT Nation		(#PCDATA) >
+<!ATTLIST  Nation		%regAttr;  >
+
+<!ELEMENT AlternateName	(#PCDATA) >
+
+<!ELEMENT County	(#PCDATA) >
+<!ATTLIST  County		%regAttr;  >
+
+<!ELEMENT Coordinates	EMPTY >
+<!ATTLIST Coordinates	latitude CDATA #IMPLIED 
+			longitude CDATA #IMPLIED >
+
+<!ELEMENT Description	(p+) >
+<!ELEMENT p		(%common.phrase;)* >
+<!ATTLIST p 
+	rend CDATA #IMPLIED
+	%xmlSpaceAttr; >
+
+<!-- ========= Illustration Objects - 2010-04-13 ========= -->
+
+<!ELEMENT Illustration	(ImageInfo, Paperwork, Research) >
+<!ATTLIST Illustration 
+	status (TBD|InProgress|Done) #REQUIRED
+	FirstEnteredBy CDATA #REQUIRED >
+
+<!ELEMENT ImageInfo    	(ImageTitle, Caption?, ArtistCreatorName+, RelatedDocs, Disposition, RepositoryOwner, RepositoryLocale, ScanLink, ScanURL) >
+
+<!ELEMENT ImageTitle (#PCDATA) >
+<!ELEMENT Caption (#PCDATA) >
+
+<!ELEMENT Disposition (#PCDATA) >
+<!ATTLIST Disposition 
+	location (CenterSection | InternalGraphic) #REQUIRED >
+	
+<!ELEMENT RepositoryOwner (#PCDATA) >
+<!ELEMENT RepositoryLocale (#PCDATA) >
+
+<!ELEMENT ScanLink (#PCDATA) >
+<!ELEMENT ScanURL (#PCDATA) >
+
+<!ELEMENT Event (#PCDATA | date)* >
+<!ATTLIST Event 
+	type (DuplicationRequest | PubPermRequest | ImageReceived | PubPerReceived) #REQUIRED
+	%xmlSpaceAttr; >
+	
+<!ELEMENT date (#PCDATA) >
+<!ATTLIST date 
+	when CDATA #IMPLIED
+	type CDATA #IMPLIED
+	notBefore CDATA #IMPLIED
+	notAfter CDATA #IMPLIED >
+
+<!ELEMENT Format EMPTY >
+<!ATTLIST Format suppliedFormat (Digital | Hardcopy) "Digital" >
+
+<!ELEMENT FrontMatterNote		(%fieldContent; | link | title)* >
+<!ATTLIST FrontMatterNote       %xmlSpaceAttr; >
+
+<!ELEMENT RSPublished (#PCDATA) >
+
+<!ELEMENT ArtistCreatorName (#PCDATA | render | link)* >
